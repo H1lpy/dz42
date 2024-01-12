@@ -18,7 +18,7 @@ namespace ConsoleApp9
             {
                 for(int j = 0; j <= n; j++)
                 {
-                    p += Pow(i, 2.0) - 2.0 * j;
+                    p += Pow(i, 2) - 2 * j;
                 }
             }
             Console.WriteLine(p);
